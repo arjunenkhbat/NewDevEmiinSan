@@ -7,7 +7,8 @@ import { signOut } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
 import './style/Events.css'
 import { useLocation } from 'react-router-dom'
-import login from './assets/login.svg'
+// import login from './assets/login.svg'
+import login from './assets/login-logo.png'
 import Logout from './assets/Logout.png'
 import { useAuth } from './AuthContext';
 import { collection, getDocs } from 'firebase/firestore'
@@ -44,15 +45,15 @@ useEffect(() => {
 }, [])
   return (
     <div>   
-      <Header name={isLogin ? 'Logout' : 'Login'} functionName={isLogin? logOut: logIn} img={isLogin? Logout : login} classname={isLogin? 'add-icon':'hide' } addEvent={isLogin? addEvent:null}/>
+      <Header name={isLogin ? 'Гарах' : 'Нэвтрэх'} functionName={isLogin? logOut: logIn} img={isLogin? Logout : login} classname={isLogin? 'add-icon':'hide' } addEvent={isLogin? addEvent:null}/>
       <img src={poster}  className='event-poster'/>
-      <EventList eventData={data} eventType="Education"/>
-      <EventList eventData={data} eventType="Art"/>
-      <EventList eventData={data} eventType="Volunteer"/>
-      <EventList eventData={data} eventType="Show"/>
-      <EventList eventData={data} eventType="Business"/>
-      <EventList eventData={data} eventType="Technology"/>
-      <EventList eventData={data} eventType="Sport"/>
+      <EventList eventData={data} eventType="Жуков"/>
+      <EventList eventData={data} eventType="Талбай"/>
+      <EventList eventData={data} eventType="Модны хоёр"/>
+      <EventList eventData={data} eventType="Багшийн дээд"/>
+      <EventList eventData={data} eventType="МУИС"/>
+      <EventList eventData={data} eventType="ШУТИС"/>
+      <EventList eventData={data} eventType="АШУИС"/>
 
       <Footer/>
     </div>

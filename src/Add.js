@@ -107,13 +107,13 @@ const Add = () => {
                     Салбар</label>
                 <select className='custom-select-input' onChange={handleType}>
                     <option value="someOption">Салбар сонгох</option>
-                    <option value="Education">Жуков</option>
-                    <option value="Art">Талбай</option>
-                    <option value="Volunteer">Модны хоёр</option>
-                    <option value="Show">Багшийн дээд</option>
-                    <option value="Business">МУИС</option>
-                    <option value="Technology">ШУТИС</option>
-                    <option value="Sport">АШУИС</option>
+                    <option value="Жуков">Жуков</option> {/*value = jukov*/}
+                    <option value="Талбай">Талбай</option>
+                    <option value="Модны хоёр">Модны хоёр</option>
+                    <option value="Багшийн дээд">Багшийн дээд</option>
+                    <option value="МУИС">МУИС</option>
+                    <option value="ШУТИС">ШУТИС</option>
+                    <option value="АШУИС">АШУИС</option>
                  </select>
                 </div>
                 <div className='small-input'>
