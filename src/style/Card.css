@@ -1,0 +1,51 @@
+.event-image {
+    width: 370px;
+    height: 272px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.cart{
+    
+    position: relative;
+}
+
+.comment{
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+
+   border-radius: 15px;
+   width: 370px;
+   height: 95.52px;
+   color: black;
+   background-color: rgba(154, 153, 146, 0.37);
+   backdrop-filter: blur(20px);
+   
+
+   top: 65%;
+}
+.loc{
+    padding-left: 10px;
+}
+
+.date{ 
+    border-radius: 10px;
+    text-align: center;
+    /* background: rgba(42, 240, 193, 100%); */
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.address-txt {
+    margin: 0;
+    padding-left: 8px;
+}

@@ -1,0 +1,19 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* color: red; */
+}
+.solid-button {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    border-radius: 50px;
+    border-color: black;
+    padding: 7px 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+}
