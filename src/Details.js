@@ -7,7 +7,6 @@ import { collection, getDocs } from 'firebase/firestore'
 import { firestore } from './FirebaseConfig'
 import { useNavigate, useParams } from 'react-router-dom'
 import Header from './components/Header'
-// import login from './assets/login.svg'
 import login from './assets/login-logo.png'
 import { useAuth } from './AuthContext';
 import Logout from './assets/Logout.png'
