@@ -33,8 +33,8 @@
 }
 .logo {
     position: fixed;
-    left: 503px;
-    /* left: 50vmax; */
+    /* left: 503px; */
+    left: 46vmax;
     top: 20px;
 }
 .charm{

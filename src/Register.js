@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import robot from "./assets/register-robot.png"
-import logo from "./assets/Logo1.png"
+import reg from "./assets/register-logo.png"
+import logo from "./assets/pharmacy-logo-small.png"
 import "./style/Register.css"
 import Input from './components/Input'
 import Button from './components/Button'
@@ -44,11 +44,11 @@ const Register = () => {
   };
   return (
     <div className='register'>
-      <img src={robot} className='register-robot'/>
+      
       <img src={logo} className='logo1'/>
 
       <div className='register-inputs'>
-        <h2>Please Fill out form to Register!</h2>
+        <h2>Эмийн сангийн системийн бүртгэл</h2>
         <div className='inputs'>
         <Input inputName="Овог, Нэр"/>
         <Input inputName="Username"/>
@@ -63,6 +63,7 @@ const Register = () => {
             <Contact/>
         </div>
       </div>
+      <img src={reg} className='register-logo'/>
     </div>
   )
 }

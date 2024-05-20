@@ -9,8 +9,13 @@
     right: 20px;
     top: 10px;
 }
-.register-robot {
+.register-logo {
     margin-left: 3%;
+    position: fixed;
+    left: 45%;
+    top: 30%;
+    width: 50%;
+    height: 40%;
     background-color: white;
 }
 .register-inputs {

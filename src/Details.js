@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import details from './assets/details1.png'
-import Logo from './assets/Logo1.png'
 import Footer from './components/Footer'
 import './style/Details.css'
 import { collection, getDocs } from 'firebase/firestore'
 import { firestore } from './FirebaseConfig'
 import { useNavigate, useParams } from 'react-router-dom'
 import Header from './components/Header'
-// import login from './assets/login.svg'
 import login from './assets/login-logo.png'
 import { useAuth } from './AuthContext';
 import Logout from './assets/Logout.png'
@@ -77,9 +74,6 @@ const Details = () => {
                 <p>{eventDatas.companyName}</p>
               </div>
             </div>
-            {/* <div className='detail-icons'>
-              
-            </div> */}
             <p>{eventDatas.explanation}</p>
           </div>
           <div className='order-button'>

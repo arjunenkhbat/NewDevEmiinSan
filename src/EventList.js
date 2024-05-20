@@ -4,7 +4,7 @@ import './style/Events.css'
 import { Link } from 'react-router-dom';
 import './style/Card.css'
 import Carousal from "@itseasy21/react-elastic-carousel";
-// import Details from './Details';
+import Details from './Details';
 
 const EventList = ({ eventData, eventType }) => {
   const [filteredEvents, setFilteredEvents] = useState([]);
