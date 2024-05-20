@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import details from './assets/details1.png'
-import Logo from './assets/Logo1.png'
 import Footer from './components/Footer'
 import './style/Details.css'
 import { collection, getDocs } from 'firebase/firestore'

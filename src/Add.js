@@ -42,7 +42,7 @@
  * @see {@link https://firebase.google.com/|Firebase}
  */
 import React, {useState} from 'react'
-import robot from "./assets/pharmacy-logo-big.png"
+import logo from "./assets/pharmacy-logo-big.png"
 import upload from "./assets/upload-icon.png"
 import "./style/Register.css"
 import Input from './components/Input'
@@ -148,7 +148,7 @@ const Add = () => {
     }
     return (
         <div className='register'>
-          <img src={robot} className='register-robot'/>
+          <img src={logo} className='register-logo'/>
           {/* <img src={logo} className='logo1'/> */}
 
           <div className='register-inputs'>

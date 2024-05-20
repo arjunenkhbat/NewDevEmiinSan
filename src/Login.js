@@ -34,7 +34,6 @@
 import React, { useState } from 'react';
 import logo from "./assets/pharmacy-logo.png"
 import "./style/Login.css"
-import charm from "./assets/charm1.png"
 import Input from './components/Input';
 import Button from './components/Button';
 import Contact from './components/Contact';
