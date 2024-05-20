@@ -76,9 +76,6 @@ const Details = () => {
                 <p>{eventDatas.companyName}</p>
               </div>
             </div>
-            {/* <div className='detail-icons'>
-              
-            </div> */}
             <p>{eventDatas.explanation}</p>
           </div>
           <div className='order-button'>

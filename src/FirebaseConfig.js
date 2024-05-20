@@ -20,3 +20,11 @@ const firestore = getFirestore(app);
 const storage = getStorage(app);
 
 export {database, firestore, storage};
+// error handling and user-friendly feedback
+try {
+  // Code that interacts with Firebase services
+} catch (error) {
+  console.error('An error occurred:', error);
+  // Display user-friendly error message to the user
+  alert('Sorry, something went wrong. Please try again later.');
+}
