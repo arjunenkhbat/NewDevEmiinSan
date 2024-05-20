@@ -52,7 +52,7 @@ const Login = () => {
         </div>
       </div>
       {/* <div className='right'>
-        <img src={robot} className='robot'/>
+        <img src={logo} className='logo'/>
       </div> */}
     </div>
   );
