@@ -51,9 +51,6 @@ const Login = () => {
           <Contact/>
         </div>
       </div>
-      {/* <div className='right'>
-        <img src={logo} className='logo'/>
-      </div> */}
     </div>
   );
 };
