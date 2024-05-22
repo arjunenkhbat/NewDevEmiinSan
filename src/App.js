@@ -17,7 +17,7 @@ function App() {
           <Route path="/register" element={isLogin ? <Navigate to="/" /> : <Register />} />
           <Route path="/add-event" element={isLogin ? <Add /> : <Navigate to="/login" />} />
           <Route path="/" element={isLogin ? <Events /> : <Events/>} />
-          <Route path="/event-detail/:name" element={isLogin ? <Details /> : <Navigate to="/login" />} />
+          <Route path="/event-detail/:name" element={isLogin ? <Details /> : <Navigate to="/login" />} /> {/*login shalgaad nevtreh*/}
         </Routes>
       </div>
     </BrowserRouter>

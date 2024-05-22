@@ -21,39 +21,55 @@
 }
 .event-text{
     width: 100%;
+    /* gap: 10px; */
 }
 
 .order-button{
     width: 100%;
     display: flex;
-    justify-content: flex-end;  
+    justify-content: flex-end;
+    /* size: 100px; */
     
 }
 
 .order-button button{
-    border:none;
+    size: 100px;
+    border: 2px solid black;
     font-size: larger;
     padding: 5px 25px;
-    border-radius: 50px;
-    background-color: black;
-    align-self: flex-end;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    /* align-self: center; */
+    align-items: flex-end;
+
+    width: 30%; /* Sets the width of the button */
+    /* height: 50%; Sets the height */
 }
 .detail-icon {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     border: 5px solid black;
     border-radius: 10px;
     width: 20%;
-    /* padding-left: 50px; */
+    /* padding-left: 20px; */
+    /* margin: ; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    gap: 5px;
 }
-.detail-icons {
+.detail-icons { /* div hoorondiin gap nemeh heregtei*/
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 50px;
     margin-top: 50px;
+    /* margin-left: 30px; */
+    gap: 30px;
 }
 

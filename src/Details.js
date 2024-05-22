@@ -12,6 +12,7 @@ import calendar from './assets/Calendar.png'
 import company from './assets/Business Building.png'
 import location from './assets/Map Marker.png'
 import typeicon from './assets/Medium Priority.png'
+import explanation from './assets/presentation.png'
 import { type } from '@testing-library/user-event/dist/type'
 const Details = () => {
   const [eventDatas, setEventDatas] = useState([]);
@@ -73,12 +74,16 @@ const Details = () => {
                 <img src={company} width={40} height={40}/>
                 <p>{eventDatas.companyName}</p>
               </div>
+              <div className='detail-icon'>
+                <img src={explanation} width={40} height={40}/>
+                <p>{eventDatas.explanation}</p>
+              </div>
             </div>
-            <p>{eventDatas.explanation}</p>
+
           </div>
           <div className='order-button'>
             <button>
-              Order
+              Захиалсан Бүтээгдэхүүн {/*just for interface lol*/}
             </button>
           </div>
         </div>
